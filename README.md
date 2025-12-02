@@ -1,6 +1,12 @@
 # Self-Attention
+### Reference
 
-## Usage
+Vaswani et al. (2017) - "Attention Is All You Need"
+https://arxiv.org/abs/1706.03762
+
+![Self-Attention Mechanism](images/self_attention.png)
+
+### Usage
 
 ```python
 import torch
@@ -16,17 +22,6 @@ x = torch.randn(4, 10, 64)
 output = model(x)  # Output shape: (4, 10, 64)
 ```
 
-## Run Test
 
-```bash
-python attention/self_attention.py
-```
 
-## Architecture
 
-![Self-Attention Mechanism](images/self_attention.png)
-
-## Reference
-
-Vaswani et al. (2017) - "Attention Is All You Need"
-https://arxiv.org/abs/1706.03762
